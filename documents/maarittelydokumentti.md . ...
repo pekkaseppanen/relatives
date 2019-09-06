@@ -1,0 +1,29 @@
+# h1 Relatives - Sukukartta
+
+# h2 Sukukartta
+
+Järjestelmässä käyttäjä voi syöttää henkilöiden tietoja ja luoda yhteyksiä henkilöiden välille (lapsi, vanhempi, puoliso). Sitten kun kaikki henkilöt ja yhdteydet on luotu, käyttäjä voi hakea henkilön lapset ja lapsenlapset tai henkilön vanhemmat ja isävanhemmat jne. Lisäominaisuutena henkilöiden ja suhteiden tietojen haku tiedostosta ja tietojen tallennus tiedostoon.
+
+Toiminnot
+* henkilön luominen
+* yhteyden luominen kahden henkilön välille
+* sukupuun näyttäminen, lapset ja lapsenlapset jne.
+* sukupuun näyttäminen, vanhemmat ja isovanhemmat jne.
+
+# h2 Algoritmit ja tietorakenteet
+
+Sukukartta toteutetaan verkkona, jossa solmuna on yksi henkilö. Henkilöllä tietoina id, syntymäaika, sukunimi ja etunimet. Henkilöllä voi olla lapsia, vanhempia ja puoliso.
+
+# h2 Mitä ongelmaa ratkaisen  ja miksi valitsin kyseiset algoritmit/tietorakenteet
+
+Ketkä ovat henkilöt jälkeläiset? Onko kaksi henkilö sukua toisilleen? Ketkä ovat henkilöt vanhemmat ja isovanhemmat jne?
+Verkko tuntuu luontevalta tietorakenteelta ongelman ratkaisuun, koska siinä voi olla kahden solmun välillä erilaisia suhteita (esim. lapsi ja  vanhempi).
+Mitä syötteitä ohjelma saa ja miten näitä käytetään
+
+Ohjelmalle annetaan syötteenä henkilöt ja henkilöiden väliset suhteet. Näistä muodostetaan verkko. Sen jälkeen ohjelma saa syötteenä henkilön id:n tai syntymäajan ja mitä tietoja henkiköstä haetaan, lapsia vai vanhempia.
+
+# h2 Tavoitteena olevat aika- ja tilavaativuudet (m.m. O-analyysit)
+ei tiedossa vielä
+
+# h2 Lähteet
+ei tiedossa vielä
